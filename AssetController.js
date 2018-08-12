@@ -41,7 +41,7 @@
             var vm = this;
             vm.returnUrl = $stateParams.returnUrl;     // $stateParams.returnUrl MUST be route-name defined in ui-route-definition within loginDemo.js
 
-            //init() is called at the end of this controller
+
             var init = function () {
                 //load system setup data
                 $rootScope.LoadSystemSetup();
@@ -808,6 +808,7 @@
                         'confidentialityfilter': $scope.Confidentiality
                     };
 
+					hunk1
                     //Update the url/state without reloading the view for deeplinking
                     $state.go($state.current,
                         {
