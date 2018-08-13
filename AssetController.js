@@ -1,6 +1,6 @@
 (function () {
     'use strict';
-
+	khaled
     var AssetController = ['$scope', '$location', '$rootScope', 'assetService', 'baseService', '$http',
         '$q', '$stateParams', '$window', '$state', '$filter', 'authService', 'dialogs', '$timeout', '$datepicker', '$timepicker', '$controller', 'dmp',
         function ($scope, $location, $rootScope, assetService, baseService, $http,
